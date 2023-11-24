@@ -1,0 +1,54 @@
+body{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(234, 240, 247);
+}
+header{
+    padding-top: 25px;
+}
+header h1{
+    width: fit-content;
+    margin: auto;
+}
+header p{
+    padding: 0px 50px;
+    font-size: 24px;
+    text-align: justify;
+}
+.carousal-container{
+    border: 2px solid black;
+    width: 60%;
+    min-width: 450px;
+    height: 500px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 4px 10px grey;
+    border-radius: 5px;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s ease-out;
+}
+.nav{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.nav button{
+    box-shadow: 3px 4px 10px grey;
+    border-radius: 5px;
+    padding: 4px 0px;
+    font-size: 20px;
+    width: 100px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.nav button:active{
+    background-color: rgb(174, 92, 250);
+}
